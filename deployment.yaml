@@ -4,7 +4,7 @@ kind: Deployment
 metadata:
   name: github-auto-deployment
 spec:
-  replicas: 2
+  replicas: 3
   selector:
     matchLabels:
       app: github-auto-app
